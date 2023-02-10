@@ -1,0 +1,50 @@
+/* Import fonds */
+
+@font-face {
+    font-family: "poppinsReg";
+    src: url(../fonts/Poppins-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppinsReg";
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1.5vh 1.5vw;
+}
+
+.flex-container li:nth-of-type(1) {
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    padding: 1vh 1vw;
+}
+
+nav ul li a {
+    padding: 1vh 1vw;
+    font-size: 0.9em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: blanchedalmond;
+}
